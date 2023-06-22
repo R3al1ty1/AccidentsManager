@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>815</width>
+    <height>543</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-3</x>
+     <y>-5</y>
+     <width>821</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../photos/imgonline-com-ua-Blur-2l4fVmT8e17N.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>811</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>541</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>541</height>
+    </size>
+   </property>
+   <property name="currentIndex">
+    <number>2</number>
+   </property>
+   <property name="tabBarAutoHide">
+    <bool>false</bool>
+   </property>
+   <widget class="QWidget" name="selRow">
+    <attribute name="title">
+     <string>Просмотр</string>
+    </attribute>
+    <widget class="QLabel" name="selBack">
+     <property name="geometry">
+      <rect>
+       <x>-3</x>
+       <y>-5</y>
+       <width>811</width>
+       <height>521</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../photos/imgonline-com-ua-Blur-2l4fVmT8e17N.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QTableView" name="selTableinsurance">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>90</y>
+       <width>721</width>
+       <height>381</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: grey; background-color: rgba(255,255,255,175)
+</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="selUpperBack">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>811</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255,255,255,75)</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="searchText">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>301</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255,255,255,50)</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="searchButton">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>10</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Поиск</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="selReturn">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>10</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Назад</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="addRow">
+    <attribute name="title">
+     <string>Добавление</string>
+    </attribute>
+    <widget class="QLabel" name="addBack">
+     <property name="geometry">
+      <rect>
+       <x>-3</x>
+       <y>-5</y>
+       <width>811</width>
+       <height>521</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../photos/imgonline-com-ua-Blur-2l4fVmT8e17N.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="addUpperBack">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>811</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255,255,255,75)</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="addReturn">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>10</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Назад</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="middleBack">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>781</width>
+       <height>421</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255,255,255,150)</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="addInsuranceIdInput">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>100</y>
+       <width>251</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255,255,255,100)</string>
+     </property>
+     <property name="inputMask">
+      <string/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>                                 ID</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="addInsuranceNameInput">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>100</y>
+       <width>251</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255,255,255,100)</string>
+     </property>
+     <property name="placeholderText">
+      <string>                          Название</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="addAccidensNumberInput">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>150</y>
+       <width>251</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255,255,255,100)</string>
+     </property>
+     <property name="placeholderText">
+      <string>                    Оформлено ДТП</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="addClientsNumberInput">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>150</y>
+       <width>251</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255,255,255,100)</string>
+     </property>
+     <property name="placeholderText">
+      <string>                     Число клиентов</string>
+     </property>
+    </widget>
+    <widget class="QTableView" name="addTableInsurance">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>250</y>
+       <width>741</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: grey; background-color: rgba(255,255,255,175)</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="addInsert">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>200</y>
+       <width>251</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Добавить</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="addRatingInput">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>200</y>
+       <width>251</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255,255,255,100)</string>
+     </property>
+     <property name="placeholderText">
+      <string>                            Рейтинг</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="updRow">
+    <attribute name="title">
+     <string>Обновление</string>
+    </attribute>
+    <widget class="QLabel" name="updBack">
+     <property name="geometry">
+      <rect>
+       <x>-3</x>
+       <y>-5</y>
+       <width>811</width>
+       <height>521</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../photos/imgonline-com-ua-Blur-2l4fVmT8e17N.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="updUpperBack">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>811</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255,255,255,75)</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="updReturn">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>10</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Назад</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="updMiddleBack">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>781</width>
+       <height>421</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255,255,255,150)</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="updChange">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>200</y>
+       <width>251</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Изменить</string>
+     </property>
+    </widget>
+    <widget class="QTableView" name="updTableInsurance">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>250</y>
+       <width>741</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: grey; background-color: rgba(255,255,255,175)</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="updInsuranceIdInput">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>100</y>
+       <width>251</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255,255,255,100)</string>
+     </property>
+     <property name="inputMask">
+      <string/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>                                 ID</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="updInsuranceNameInput">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>100</y>
+       <width>251</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255,255,255,100)</string>
+     </property>
+     <property name="placeholderText">
+      <string>                          Название</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="updAccidensNumberInput">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>150</y>
+       <width>251</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255,255,255,100)</string>
+     </property>
+     <property name="placeholderText">
+      <string>                    Оформлено ДТП</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="updRatingInput">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>200</y>
+       <width>251</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255,255,255,100)</string>
+     </property>
+     <property name="placeholderText">
+      <string>                            Рейтинг</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="updClientsNumberInput">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>150</y>
+       <width>251</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255,255,255,100)</string>
+     </property>
+     <property name="placeholderText">
+      <string>                     Число клиентов</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="delRow">
+    <attribute name="title">
+     <string>Удаление</string>
+    </attribute>
+    <widget class="QLabel" name="delBack">
+     <property name="geometry">
+      <rect>
+       <x>-3</x>
+       <y>-5</y>
+       <width>811</width>
+       <height>521</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../photos/imgonline-com-ua-Blur-2l4fVmT8e17N.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="delUpperBack">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>811</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255,255,255,75)
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="delReturn">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>10</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Назад</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="delNameText">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>301</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255,255,255,50)</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="deleteButton">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>10</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Удалить</string>
+     </property>
+    </widget>
+    <widget class="QTableView" name="delTableInsurance">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>90</y>
+       <width>721</width>
+       <height>381</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: grey; background-color: rgba(255,255,255,175)</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
